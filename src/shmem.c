@@ -38,7 +38,12 @@ void shmem_bang(t_shmem *x)
 	if (pointsToProcess < (int)x->size_)
 		pointsToProcess = (int)x->size_;
 
-	memcpy(x->pBuf_, array, pointsToProcess * sizeof(float));
+
+	float* pBufPtr = (float*)x->pBuf_;
+	for (int i = 0; i < pointsToProcess; i++)
+	{
+		pBufPtr[i] = vec[i].w_float;
+	}
 }
 
 void *shmem_new(t_symbol *s, t_float numSamples)
