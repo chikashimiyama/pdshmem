@@ -4,3 +4,6 @@
 [submodule "tinyshmem"]
 	path = tinyshmem
 	url = https://github.com/chikashimiyama/tinyshmem.git
+[submodule "pd.build"]
+	path = pd.build
+	url = https://github.com/pierreguillot/pd.build.git
