@@ -1,0 +1,6 @@
+[submodule "pure-data"]
+	path = pure-data
+	url = https://github.com/pure-data/pure-data.git
+[submodule "tinyshmem"]
+	path = tinyshmem
+	url = https://github.com/chikashimiyama/tinyshmem.git
