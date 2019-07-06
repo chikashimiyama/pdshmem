@@ -1,4 +1,4 @@
-#N canvas 906 526 450 300 10;
+#N canvas 2042 76 450 300 10;
 #X obj 87 23 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -11,5 +11,5 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 1 100 -1 200 140 1;
 #X restore 207 38 graph;
-#X obj 92 62 shmem testarray;
+#X obj 65 104 shmem testarray 100;
 #X connect 0 0 2 0;
