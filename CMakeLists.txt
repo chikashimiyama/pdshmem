@@ -9,5 +9,4 @@ set_pd_external_path(${CMAKE_SOURCE_DIR}/bin/)
 
 add_pd_external(shmem shmem ${CMAKE_SOURCE_DIR}/src/shmem.c)
 
-add_subdirectory(tinyshmem)
 
